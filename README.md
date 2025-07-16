@@ -1,3 +1,8 @@
+# Note:
+**The MariaDB team took this Hackathon project and greatly improved on it, you can check it out at: https://github.com/MariaDB/mcp.**
+
+**I leave this repo visible to showcase my work, link to a blog they wrote about it: https://mariadb.org/model-context-protocol-mcp-hackathon-integration-track-winner/**
+
 # mcp-server-mariadb-vector
 
 The MariaDB Vector MCP server provides tools that LLM agents can use to interact with a MariaDB database [with vector support](https://mariadb.org/projects/mariadb-vector/), providing users with a natural language interface to store and interact with their data. Thanks to the [Model Context Protocol (MCP)](https://modelcontextprotocol.io/introduction), this server is compatible with any MCP client, including those provided by applications like Claude Desktop and Cursor/Windsurf, as well as LLM Agent frameworks like LangGraph and PydanticAI.
